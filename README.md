@@ -1,1 +1,1 @@
-# GifTastic
+Giftastic is an activity that incorporates API data from giphy.com/ to allow user interface to search GIFs and ratings. This project is a useful tool for searching API data by generating buttons for easy use and presenting the use the top 10 best search results of TV shows. Users begin utilizing this resource by exploring the pre-made TV Show buttons and using the textbook to generate new buttons that match the user's desired Television search. From these searches they will be able to view the ratings and top 10 results.

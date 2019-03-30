@@ -1,0 +1,45 @@
+.jumbotron{
+  background-image: url("BootcampHMWRK/GifTastic/assets/images/tvbackground.jpg");
+  padding:10px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.show{
+  margin:10px;
+  border:round;
+}
+
+body{
+  background-image: url("http://wellworthsurgical.com/wp-content/uploads/parser/static-background-1.png");
+  color: blueviolet;
+  font-weight: strong;
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0.591);
+  min-height: 300px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#tv{
+  float:right;
+  background-color: greenyellow;
+  padding:10px;
+  text-align: center;
+
+}
+
+.tvBackground{
+  max-height:150px;
+  float:right;
+  position: absolute;
+  margin-left:1000px;
+
+}
+/* .gif-class{
+  padding:10px;
+} */
+
+.data-name{
+  background-color:pink;
+}
