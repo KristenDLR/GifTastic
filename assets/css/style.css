@@ -5,23 +5,34 @@
   border:round;
 }
 
-p{
+.lead{
   color:greenyellow;
 }
 
+p{
+  color:#fe0000;
+  font-size: 20px;
+}
+
 /* TODO: come back to this for font */
-/*
+
 body{
-  background-image: url("http://wellworthsurgical.com/wp-content/uploads/parser/static-background-1.png");
-  color: blueviolet;
-  font-weight: strong;
-} */
+  background-image: url("../images/static-background.png");
+  /* color: blueviolet;
+  font-weight: strong; */
+}
 
 .container{
-  background-color: rgba(255, 255, 255, 0.591);
+  /* background-color: rgba(255, 255, 255, 0.591); */
   min-height: 300px;
   font-family: 'Orbitron', sans-serif;
 
+}
+
+button{
+padding:10px;
+border-width: 10px;;
+background-color: rgb(0, 225, 255);
 }
 
 
@@ -85,8 +96,9 @@ _______________________________________________________ */
   background-color: #323133;
   padding:10px;
   font-family: 'Orbitron', sans-serif;
+
 }
-.jumbotron:after {
+.jumbotron :after {
   content: "";
   position: absolute;
   top: 0px;
@@ -95,7 +107,7 @@ _______________________________________________________ */
   bottom: 0px;
   z-index: 1000;
   background: repeating-linear-gradient(0deg, #111 0px, #111 1px, transparent 2px, transparent 5px);
-  background-size: 100% 5px;
+  background-size: 100% 7px;
   -webkit-animation: lines 2s ease-out infinite;
           animation: lines 2s ease-out infinite;
   opacity: 0.3;
