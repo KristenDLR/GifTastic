@@ -10,8 +10,9 @@
 }
 
 p{
-  color:#fe0000;
+  color:yellow;
   font-size: 20px;
+
 }
 
 /* TODO: come back to this for font */
@@ -105,6 +106,7 @@ _______________________________________________________ */
   left: 0px;
   right: 0px;
   bottom: 0px;
+  max-height: 35%;
   z-index: 1000;
   background: repeating-linear-gradient(0deg, #111 0px, #111 1px, transparent 2px, transparent 5px);
   background-size: 100% 7px;
@@ -498,5 +500,12 @@ ________________________________________________________________ */
   100% {
     opacity: 0;
     transform: skew(0deg, 0deg);
+  }
+}
+
+
+@media only screen and (min-height: 264px) {
+  .jumbotron ::after {
+    min-height: 35%;
   }
 }
